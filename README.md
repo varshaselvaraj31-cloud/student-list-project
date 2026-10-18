@@ -4,7 +4,7 @@ A React app for browsing a student directory and keeping a personal favourites l
 
 ## Live site
 
-After the GitHub Pages deployment completes, the app will be available at:
+GitHub Actions builds and deploys the app whenever changes are pushed to `main`. Once deployment succeeds, the app is available at:
 
 https://varshaselvaraj31-cloud.github.io/student-list-project/
 
