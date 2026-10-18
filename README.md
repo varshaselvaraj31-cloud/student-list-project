@@ -2,6 +2,12 @@
 
 A React app for browsing a student directory and keeping a personal favourites list. It uses React Router for page navigation and React Context to share favourites across pages.
 
+## Live site
+
+After the GitHub Pages deployment completes, the app will be available at:
+
+https://varshaselvaraj31-cloud.github.io/student-list-project/
+
 ## Run locally
 
 ```bash
