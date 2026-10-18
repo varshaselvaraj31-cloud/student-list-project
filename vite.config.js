@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/student-list-project/',
+  base: process.env.VITE_BASE_PATH || '/',
   plugins: [react()],
 })

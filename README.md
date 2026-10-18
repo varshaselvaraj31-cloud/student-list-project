@@ -8,6 +8,10 @@ GitHub Actions builds and deploys the app whenever changes are pushed to `main`.
 
 https://varshaselvaraj31-cloud.github.io/student-list-project/
 
+## Deploy with Vercel
+
+Import `varshaselvaraj31-cloud/student-list-project` into Vercel. The Vite framework preset uses `npm run build` and `dist` by default. The included `vercel.json` rewrites app routes so refreshing `/favourites` works. Vercel builds at the domain root; the GitHub Pages base path is configured separately in its workflow.
+
 ## Run locally
 
 ```bash
